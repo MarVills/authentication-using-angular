@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstApp';
+  email: String = "";
+  password: String = "";
   log_email: String = "";
   log_password: String = "";
   reg_email: String = "";
